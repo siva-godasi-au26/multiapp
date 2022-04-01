@@ -1,0 +1,113 @@
+body{
+    margin-left: 20px;
+}
+
+#button{
+    margin: 4px;
+    border-color: red;
+    color:red;
+    cursor: pointer;
+}
+.box{
+    width:250px;
+    height:160px;
+    border:1px solid;
+    padding:10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 4px;
+    box-shadow: 0 0 20px aqua;
+}
+textarea{
+    display: flex;
+    width:230px;
+}
+.box2{
+    width:250px;
+    height:150px;
+    border:1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+    background-color: grey;
+    border-radius: 4px;
+    box-shadow: 0 0 20px brown;
+    /* flex-wrap:wrap; */
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainsave{
+    background-color: green;
+    width:60px;
+    height: 25px;
+    color:aliceblue;
+    border-radius: 2px;
+    border: none;
+    margin-right: 40px;
+    box-shadow: 0 0 20px white;
+}
+
+.maindelete{
+    background-color: red;
+    width:60px;
+    height: 25px;
+    color:aliceblue;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 20px white;
+}
+
+.edit{
+    background-color: blue;
+    width:60px;
+    height: 25px;
+    color:aliceblue;
+    border-radius: 2px;
+    border: none;
+    margin-right: 40px;
+    box-shadow: 0 0 20px white;
+}
+
+.subdelete{
+    background-color: red;
+    width:60px;
+    height: 25px;
+    color:aliceblue;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 20px white;
+}
+
+section{
+    margin:10px;
+    max-width: 180px;
+}
+
+.question{
+    color:brown;
+    margin:10px;
+}
+
+.showbutton{
+    background-color: grey;
+    border:none;
+    color:blue;
+    cursor: pointer;
+}
+
+.homepage{ 
+    margin: 20px;
+    margin-left: 0px;
+}
